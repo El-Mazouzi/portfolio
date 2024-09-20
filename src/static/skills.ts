@@ -33,100 +33,59 @@ import xaml from '~/assets/images/logos/xaml.png'
 
 import parcelJS from '~/assets/images/logos/parcel.png'
 import turborepo from '~/assets/images/logos/turborepo.svg'
-import vitejs from '~/assets/images/logos/vite.png'
+//
+import flutter from '~/assets/images/logos/flutter.svg'
+import dart from '~/assets/images/logos/dart.png'
+import firebase from '~/assets/images/logos/firebase.png'
+import realm from '~/assets/images/logos/realm.png'
+import agile from '~/assets/images/logos/agile.png'
+import github from '~/assets/images/logos/github.png'
+import postman from '~/assets/images/logos/postman.png'
+import kotlin from '~/assets/images/logos/kotlin.png'
+import android from '~/assets/images/logos/android-studio.webp'
+import mysql from '~/assets/images/logos/mysql.jpg'
+import jetPackCompose from '~/assets/images/logos/jet-pack-compose.png'
 
 const SKILLS = [
 	{
-		catName: 'Web Frontend',
+		catName: 'Programming Languages & Frameworks',
 		catImageName: 'frontend',
 		skills: [
 			{
-				name: 'React',
-				image: react,
+				name: 'Flutter',
+				image: flutter,
 			},
 			{
-				name: 'NextJS',
-				image: nextjs,
+				name: 'Dart',
+				image: dart,
 			},
 			{
-				name: 'SolidJS',
-				image: solidjs,
+				name: 'Android',
+				image: android,
 			},
 			{
-				name: 'Astro',
-				image: astro,
+				name: 'Kotlin',
+				image: kotlin,
 			},
 			{
-				name: '@TS/Query',
-				image: reactQuery,
+				name: 'Jet Pack',
+				image: jetPackCompose,
 			},
 			{
-				name: '@TS/Router',
-				image: tanstack,
-			},
-			{
-				name: 'RecoilJS',
-				image: recoilJS,
-			},
-			{
-				name: 'Jotai',
-				image: jotai,
-			},
-			{
-				name: 'Tailwind',
-				image: tailwind,
-			},
-			{
-				name: 'Shadcn UI',
-				image: shadcn,
-			},
-			{
-				name: 'MUI',
-				image: mui,
-			},
-			{
-				name: 'Bootstrap',
-				image: bootstrap,
-			},
-
-			{
-				name: 'Chakra UI',
-				image: chakraUI,
-			},
-			{
-				name: 'Typescript',
-				image: typescript,
-			},
-			{
-				name: 'Javascript',
+				name: 'Java Script',
 				image: javascript,
-			},
-			{
-				name: 'CSS',
-				image: css,
-			},
-			{
-				name: 'SASS',
-				image: sass,
-			},
-			{
-				name: 'HTML',
-				image: html,
 			},
 		],
 	},
 	{
-		catName: 'Web Backend',
+		catName: 'Backend & Database',
 		catImageName: 'backend',
 		skills: [
 			{
 				name: 'NodeJS',
 				image: node,
 			},
-			{
-				name: 'Go',
-				image: go,
-			},
+
 			{
 				name: 'MongoDB',
 				image: mongodb,
@@ -135,67 +94,46 @@ const SKILLS = [
 				name: 'Postgres',
 				image: postgresql,
 			},
-			{
-				name: 'Drizzle ORM',
-				image: drizzle,
-			},
+
 			{
 				name: 'ExpressJS',
 				image: express,
 				dark: true,
 			},
 			{
-				name: 'GraphQL',
-				image: graphQL,
+				name: 'MySQL',
+				image: mysql,
 			},
 			{
-				name: 'tRPC',
-				image: trpc,
+				name: 'Firebase',
+				image: firebase,
+			},
+			{
+				name: 'Realm',
+				image: realm,
 			},
 			{ name: 'WebSockets', image: webSocket, dark: true },
 		],
 	},
 	{
-		catName: 'Desktop',
+		catName: 'Tools & Version Control',
 		catImageName: 'desktop',
 		skills: [
 			{
-				name: 'C#',
-				image: csharp,
+				name: 'Github',
+				image: github,
 			},
 			{
 				name: 'XAML',
 				image: xaml,
 			},
 			{
-				name: '.NET',
-				image: dotnet,
+				name: 'Postman',
+				image: postman,
 			},
 			{
-				name: 'WPF',
-				image: xaml,
-			},
-			{
-				name: 'WinForms',
-				image: xaml,
-			},
-		],
-	},
-	{
-		catName: 'Other Skills',
-		catImageName: 'other',
-		skills: [
-			{
-				name: 'ParcelJS',
-				image: parcelJS,
-			},
-			{
-				name: 'ViteJS',
-				image: vitejs,
-			},
-			{
-				name: 'Turborepo',
-				image: turborepo,
+				name: 'Agile',
+				image: agile,
 			},
 		],
 	},

@@ -2,62 +2,39 @@ const EXPERIENCE = [
 	{
 		isWork: true,
 		period: '2023 - 2024',
-		company: 'BJD IT',
-		jobTitle: 'Front-end web developer',
+		company: 'YASSIR (Y Combinator W20)',
+		jobTitle: 'Mobile developer',
 		description: [
-			'Led the architecture and development of multiple front-end applications, with a focus on creating interactive dashboards.',
-			'Implemented responsive design principles to optimize user experience across different devices.',
-			'Integrated third-party APIs, including Firebase, to boost functionality and streamline processes.',
+			'Developed and maintained Yassir Food Delivery app, focusing on user experience and functionality enhancements.',
+			'Conducted performance analysis and implemented optimizations that increased app responsiveness, resulting in a smoother user experience.',
+			'Contributed to analysis and schema optimization sessions, improving database efficiency by 50%.',
+			'Collaborated with a team of 12 developers to integrate new features, ensuring cross-platform functionality.',
 		],
 	},
 	{
 		isWork: true,
-		period: '2020 - 2022',
-		company: 'Sirius Services - Abb Partner Algeria',
-		jobTitle: 'Software Developer',
+		period: '2021 - 2023',
+		company: 'M-FORMATIK',
+		jobTitle: 'Mobile Developer',
 		description: [
-			'Developed various scripts to automate a variety of repetitive task to increase productivity and efficiency.',
-			'Designed and develop internal software applications for addressing company problems and needs.',
+			'Spearheaded the development of 15 mobile applications, including E-commerce, Delivery, Laboratory Management, and Stock Management, contributing to a 50% growth in business.',
+			'Actively participated in UI/UX discussions, significantly enhancing the visual appeal and user experience of applications.',
+			'Managed the complete product life cycle for 15 projects, from initial design to deployment.',
+			'Held the responsibility for publishing mobile apps, ensuring seamless availability to users.',
+			'Optimized application performance, resulting in a 30% increase in responsiveness and efficiency.',
 		],
 	},
 	{
 		isWork: true,
 		period: '2019 - 2020',
 		company: 'Freelancing',
-		jobTitle: 'Software Developer',
+		jobTitle: 'Mobile Developer',
 		description: [
-			'Designed and developed some simple applications for local small business',
+			'Built a user-friendly platform linking farmers with buyers for agricultural products, achieving 1500 active monthly users.',
+			'Developed Honest-Inn, an app that connects users with job opportunities by completing missions in the hotels, boosting business engagement.',
+			'Created a Dictionary app for a private school, enhancing language learning.',
+			'Demonstrated community involvement by building a Flutter Package that has over 90% popularity.',
 		],
-	},
-	{
-		isWork: true,
-		period: '24/03/2018 – 05/04/2018',
-		company: 'Electricity And Gas Distribution Administration Algeria',
-		jobTitle: 'Internship',
-		description: [
-			'Was responsible for daily backing up customers database.',
-			'Was giving a basic walk-through on the IT department daily operations.',
-		],
-	},
-
-	{
-		isWork: false,
-		period: 'July 2019',
-		company:
-			'Institute Of Electrical And Electronics Engineering (Ex-INELEC) Algeria',
-		jobTitle: 'Degree',
-		description: [
-			'Master’s in Computer Engineering.',
-			'Developed a Fullstack Web Application to facilitate the management of the Scientific Council of the institute.',
-		],
-	},
-	{
-		isWork: false,
-		period: 'July 2017',
-		company:
-			'Institute Of Electrical And Electronics Engineering (Ex-INELEC) Algeria',
-		jobTitle: 'Degree',
-		description: ['License in Electrical and Electronics Engineering.'],
 	},
 ]
 
