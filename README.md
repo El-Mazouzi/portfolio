@@ -1,4 +1,4 @@
-<p align="center">
+<p align="center"> 
   <img src="./src/assets/images/logos/astro-white.png" alt="astro" height="64"/>
 </p>
 <p align="center"> 
