@@ -13,7 +13,7 @@ const EXPERIENCE = [
 	},
 	{
 		isWork: true,
-		period: '2021 - 2023',
+		period: '2020 - 2023',
 		company: 'M-FORMATIK',
 		jobTitle: 'Mobile Developer',
 		description: [
@@ -26,7 +26,7 @@ const EXPERIENCE = [
 	},
 	{
 		isWork: true,
-		period: '2019 - 2020',
+		period: '2021 - 2024',
 		company: 'Freelancing',
 		jobTitle: 'Mobile Developer',
 		description: [
@@ -34,6 +34,17 @@ const EXPERIENCE = [
 			'Developed Honest-Inn, an app that connects users with job opportunities by completing missions in the hotels, boosting business engagement.',
 			'Created a Dictionary app for a private school, enhancing language learning.',
 			'Demonstrated community involvement by building a Flutter Package that has over 90% popularity.',
+		],
+	},
+	{
+		isWork: false,
+		period: '2016 - 2021',
+		company: "Master's degree in Computer Science",
+		jobTitle: "University of M'sila",
+		description: [
+			'Gained hands-on experience in programming, mobile development, web development, and database management.',
+
+			'Worked on projects involving web development, mobile application development.',
 		],
 	},
 ]

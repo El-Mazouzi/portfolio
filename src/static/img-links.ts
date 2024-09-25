@@ -3,8 +3,11 @@
 const ROOT_URL =
 	'https://res.cloudinary.com/riyadh-main-cloud/image/upload/f_webp/q_auto:best/portfolio'
 
+const NEW_ROOT_URL =
+	'https://res.cloudinary.com/delz15h3e/image/upload/v1727067665/portfolio'
+
 const imageSources = {
-	logo: `${ROOT_URL}/skdcfiuvaaeyf3f6jqnm.png`,
+	logo: `${NEW_ROOT_URL}/hd1xobhxyes752kuwtld.jpg`,
 	projects: {
 		'social-media-app': [
 			`${ROOT_URL}/social-media-app/y2eoxybmy8ddzb4wpkex.png`,

@@ -123,10 +123,7 @@ const SKILLS = [
 				name: 'Github',
 				image: github,
 			},
-			{
-				name: 'XAML',
-				image: xaml,
-			},
+
 			{
 				name: 'Postman',
 				image: postman,
