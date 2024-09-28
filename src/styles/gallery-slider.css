@@ -73,15 +73,9 @@
 }
 
 .gallery-slider-middle-section img {
-	max-height: calc(100vh - 64px);
+	height: calc(100vh - 100px);
 	z-index: -1;
-}
-
-@media (min-width: 992px) {
-	.gallery-slider-middle-section img {
-		position: absolute;
-		top: 0;
-	}
+	border-radius: 16px;
 }
 
 .hide {
