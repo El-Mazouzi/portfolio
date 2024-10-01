@@ -7,7 +7,7 @@ const NEW_ROOT_URL =
 	'https://res.cloudinary.com/delz15h3e/image/upload/v1727067665/portfolio'
 
 const imageSources = {
-	logo: `${NEW_ROOT_URL}/hd1xobhxyes752kuwtld.jpg`,
+	logo: `${NEW_ROOT_URL}/daatheyv0dvxkaj0fezt.jpg`,
 	projects: {
 		Yassir: [
 			`${NEW_ROOT_URL}/Yassir/zfmm8kpenaloabceelag.png`,
