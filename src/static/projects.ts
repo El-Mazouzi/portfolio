@@ -18,6 +18,22 @@ const PROJECTS = [
 		],
 	},
 	{
+		name: 'Hisba-Go',
+		links: ['https://e-commerce-app-self.vercel.app/'],
+		repo: 'https://github.com/riyadh-dev/e-commerce-app',
+		thumbnail: imageSources.projects['Hisba-Go'][0],
+		images: imageSources.projects['Hisba-Go'],
+		tags: [
+			'Sales Automation',
+			'Direct Distribution',
+			'Order Management',
+			'Cash Collection System',
+			'Return Processing',
+			'Streamlined Operations',
+			'Sales Tracking System',
+		],
+	},
+	{
 		name: 'Your Doctor',
 		links: ['https://e-commerce-app-self.vercel.app/'],
 		repo: 'https://github.com/riyadh-dev/e-commerce-app',
