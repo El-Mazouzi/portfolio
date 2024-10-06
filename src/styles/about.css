@@ -12,7 +12,14 @@
 	font-size: larger;
 	margin-bottom: var(--m-1);
 }
-
+.about-content .btn {
+	align-items: center;
+}
+.download-icon svg {
+	fill: white;
+	width: 1.5rem;
+	height: 1.5rem;
+}
 .stats-items {
 	margin-top: var(--m-2-5);
 	justify-content: space-around;
