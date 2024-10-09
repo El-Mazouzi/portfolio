@@ -1,3 +1,4 @@
+import { log } from 'node_modules/astro/dist/core/logger/core'
 import imageSources from './img-links'
 
 const PROJECTS = [
@@ -5,8 +6,22 @@ const PROJECTS = [
 		name: 'Yassir',
 		links: ['https://e-commerce-app-self.vercel.app/'],
 		repo: 'https://github.com/riyadh-dev/e-commerce-app',
-		thumbnail: imageSources.projects['Yassir'][0],
-		images: imageSources.projects['Yassir'],
+		thumbnail: imageSources.projects['Yassir'].images[0],
+		images: imageSources.projects['Yassir'].images,
+		logo: imageSources.projects['Yassir'].logo,
+		description: `
+		This project, <strong>Project Name</strong>, focuses on developing a modern web application.
+		<br>
+		<br>
+		Key Features:
+		<ul>
+		  <li><strong>User Authentication</strong> with multiple roles</li>
+		  <li><strong>Real-time data sync</strong> using WebSockets</li>
+		  <li>Integration with <strong>third-party APIs</strong></li>
+		  <li>Responsive design for <strong>mobile and desktop</strong></li>
+		</ul>
+		The project is built using the <strong>MERN stack</strong>.
+	  `,
 		tags: [
 			// tags that describes the app purpose
 			'Yassir App',
@@ -21,8 +36,22 @@ const PROJECTS = [
 		name: 'Hisba-Go',
 		links: ['https://e-commerce-app-self.vercel.app/'],
 		repo: 'https://github.com/riyadh-dev/e-commerce-app',
-		thumbnail: imageSources.projects['Hisba-Go'][0],
-		images: imageSources.projects['Hisba-Go'],
+		thumbnail: imageSources.projects['Hisba-Go'].images[0],
+		logo: imageSources.projects['Hisba-Go'].logo,
+		images: imageSources.projects['Hisba-Go'].images,
+		description: `
+		This project, <strong>Project Name</strong>, focuses on developing a modern web application.
+		<br>
+		<br>
+		Key Features:
+		<ul>
+		  <li><strong>User Authentication</strong> with multiple roles</li>
+		  <li><strong>Real-time data sync</strong> using WebSockets</li>
+		  <li>Integration with <strong>third-party APIs</strong></li>
+		  <li>Responsive design for <strong>mobile and desktop</strong></li>
+		</ul>
+		The project is built using the <strong>MERN stack</strong>.
+	  `,
 		tags: [
 			'Sales Automation',
 			'Direct Distribution',
@@ -37,8 +66,22 @@ const PROJECTS = [
 		name: 'Your Doctor',
 		links: ['https://e-commerce-app-self.vercel.app/'],
 		repo: 'https://github.com/riyadh-dev/e-commerce-app',
-		thumbnail: imageSources.projects['doctorek'][0],
-		images: imageSources.projects['doctorek'],
+		thumbnail: imageSources.projects['doctorek'].images[0],
+		images: imageSources.projects['doctorek'].images,
+		logo: imageSources.projects['doctorek'].logo,
+		description: `
+		This project, <strong>Project Name</strong>, focuses on developing a modern web application.
+		<br>
+		<br>
+		Key Features:
+		<ul>
+		  <li><strong>User Authentication</strong> with multiple roles</li>
+		  <li><strong>Real-time data sync</strong> using WebSockets</li>
+		  <li>Integration with <strong>third-party APIs</strong></li>
+		  <li>Responsive design for <strong>mobile and desktop</strong></li>
+		</ul>
+		The project is built using the <strong>MERN stack</strong>.
+	  `,
 		tags: [
 			// tags that describes the app purpose
 			'Mobile App',
@@ -53,8 +96,22 @@ const PROJECTS = [
 		name: 'Honest-Inn',
 		links: ['https://dashboard-nextjs-weld.vercel.app/'],
 		repo: 'https://github.com/riyadh-dev/dashboard-nextjs',
-		thumbnail: imageSources.projects['Honest-Inn'][0],
-		images: imageSources.projects['Honest-Inn'],
+		thumbnail: imageSources.projects['Honest-Inn'].images[0],
+		logo: imageSources.projects['Honest-Inn'].logo,
+		images: imageSources.projects['Honest-Inn'].images,
+		description: `
+		This project, <strong>Project Name</strong>, focuses on developing a modern web application.
+		<br>
+		<br>
+		Key Features:
+		<ul>
+		  <li><strong>User Authentication</strong> with multiple roles</li>
+		  <li><strong>Real-time data sync</strong> using WebSockets</li>
+		  <li>Integration with <strong>third-party APIs</strong></li>
+		  <li>Responsive design for <strong>mobile and desktop</strong></li>
+		</ul>
+		The project is built using the <strong>MERN stack</strong>.
+	  `,
 		tags: [
 			// tags that describes the app purpose
 			'Hotel Industry',
@@ -64,13 +121,55 @@ const PROJECTS = [
 			'Job Finder',
 		],
 	},
+	{
+		name: 'Hisba-Makhzoun',
+
+		links: ['https://dashboard-nextjs-weld.vercel.app/'],
+		repo: 'https://github.com/riyadh-dev/dashboard-nextjs',
+		thumbnail: imageSources.projects['Hisba-Makhzoun'].images[0],
+		logo: imageSources.projects['Hisba-Makhzoun'].logo,
+		images: imageSources.projects['Hisba-Makhzoun'].images,
+		description: `
+		This project, <strong>Project Name</strong>, focuses on developing a modern web application.
+		<br>
+		<br>
+		Key Features:
+		<ul>
+		  <li><strong>User Authentication</strong> with multiple roles</li>
+		  <li><strong>Real-time data sync</strong> using WebSockets</li>
+		  <li>Integration with <strong>third-party APIs</strong></li>
+		  <li>Responsive design for <strong>mobile and desktop</strong></li>
+		</ul>
+		The project is built using the <strong>MERN stack</strong>.`,
+		tags: [
+			'Order Management',
+			'Order Preparation',
+			'Order Tracking',
+			'Online Synchronization',
+			'Inventory Management',
+		],
+	},
 
 	{
 		name: 'MBio-Manager',
 		links: ['https://dashboard-nextjs-weld.vercel.app/'],
 		repo: 'https://github.com/riyadh-dev/dashboard-nextjs',
-		thumbnail: imageSources.projects['Mbio-Manager'][0],
-		images: imageSources.projects['Mbio-Manager'],
+		thumbnail: imageSources.projects['Mbio-Manager'].images[0],
+		images: imageSources.projects['Mbio-Manager'].images,
+		logo: imageSources.projects['Mbio-Manager'].logo,
+		description: `
+		This project, <strong>Project Name</strong>, focuses on developing a modern web application.
+		<br>
+		<br>
+		Key Features:
+		<ul>
+		  <li><strong>User Authentication</strong> with multiple roles</li>
+		  <li><strong>Real-time data sync</strong> using WebSockets</li>
+		  <li>Integration with <strong>third-party APIs</strong></li>
+		  <li>Responsive design for <strong>mobile and desktop</strong></li>
+		</ul>
+		The project is built using the <strong>MERN stack</strong>.
+	  `,
 		tags: [
 			// tags that describes the app purpose
 			'Logistic Manager',
@@ -82,11 +181,25 @@ const PROJECTS = [
 	},
 
 	{
-		name: 'Logistix-Driver',
+		name: 'Logistic Driver',
 		links: ['https://dashboard-nextjs-weld.vercel.app/'],
 		repo: 'https://github.com/riyadh-dev/dashboard-nextjs',
-		thumbnail: imageSources.projects['Logistix-Driver'][0],
-		images: imageSources.projects['Logistix-Driver'],
+		thumbnail: imageSources.projects['Logistix-Driver'].images[0],
+		images: imageSources.projects['Logistix-Driver'].images,
+		logo: imageSources.projects['Logistix-Driver'].logo,
+		description: `
+		This project, <strong>Project Name</strong>, focuses on developing a modern web application.
+		<br>
+		<br>
+		Key Features:
+		<ul>
+		  <li><strong>User Authentication</strong> with multiple roles</li>
+		  <li><strong>Real-time data sync</strong> using WebSockets</li>
+		  <li>Integration with <strong>third-party APIs</strong></li>
+		  <li>Responsive design for <strong>mobile and desktop</strong></li>
+		</ul>
+		The project is built using the <strong>MERN stack</strong>.
+	  `,
 		tags: [
 			// tags that describes the app purpose
 			'Logistic Driver',
@@ -100,8 +213,22 @@ const PROJECTS = [
 		name: 'Mbio-Logistic',
 		links: ['https://dashboard-nextjs-weld.vercel.app/'],
 		repo: 'https://github.com/riyadh-dev/dashboard-nextjs',
-		thumbnail: imageSources.projects['Mbio-Logistic'][0],
-		images: imageSources.projects['Mbio-Logistic'],
+		thumbnail: imageSources.projects['Mbio-Logistic'].images[0],
+		images: imageSources.projects['Mbio-Logistic'].images,
+		logo: imageSources.projects['Mbio-Logistic'].logo,
+		description: `
+		This project, <strong>Project Name</strong>, focuses on developing a modern web application.
+		<br>
+		<br>
+		Key Features:
+		<ul>
+		  <li><strong>User Authentication</strong> with multiple roles</li>
+		  <li><strong>Real-time data sync</strong> using WebSockets</li>
+		  <li>Integration with <strong>third-party APIs</strong></li>
+		  <li>Responsive design for <strong>mobile and desktop</strong></li>
+		</ul>
+		The project is built using the <strong>MERN stack</strong>.
+	  `,
 		tags: [
 			// tags that describes the app purpose
 			'Mbio-Logistic',
@@ -115,8 +242,22 @@ const PROJECTS = [
 		name: 'Mantoudj-Bladi',
 		links: ['https://dashboard-nextjs-weld.vercel.app/'],
 		repo: 'https://github.com/riyadh-dev/dashboard-nextjs',
-		thumbnail: imageSources.projects['Mantoudj-Bladi'][0],
-		images: imageSources.projects['Mantoudj-Bladi'],
+		thumbnail: imageSources.projects['Mantoudj-Bladi'].images[0],
+		logo: imageSources.projects['Mantoudj-Bladi'].logo,
+		images: imageSources.projects['Mantoudj-Bladi'].images,
+		description: `
+		This project, <strong>Project Name</strong>, focuses on developing a modern web application.
+		<br>
+		<br>
+		Key Features:
+		<ul>
+		  <li><strong>User Authentication</strong> with multiple roles</li>
+		  <li><strong>Real-time data sync</strong> using WebSockets</li>
+		  <li>Integration with <strong>third-party APIs</strong></li>
+		  <li>Responsive design for <strong>mobile and desktop</strong></li>
+		</ul>
+		The project is built using the <strong>MERN stack</strong>.
+	  `,
 		tags: [
 			// tags that describes the app purpose
 			'Mbio-Logistic',
@@ -127,11 +268,54 @@ const PROJECTS = [
 		],
 	},
 	{
+		name: 'Hisba Inventory',
+		links: ['https://dashboard-nextjs-weld.vercel.app/'],
+		repo: 'https://github.com/riyadh-dev/dashboard-nextjs',
+		thumbnail: imageSources.projects['Hisba-Inventory'].images[0],
+		logo: imageSources.projects['Hisba-Inventory'].logo,
+		images: imageSources.projects['Hisba-Inventory'].images,
+		description: `
+		This project, <strong>Project Name</strong>, focuses on developing a modern web application.
+		<br>
+		<br>
+		Key Features:
+		<ul>
+		  <li><strong>User Authentication</strong> with multiple roles</li>
+		  <li><strong>Real-time data sync</strong> using WebSockets</li>
+		  <li>Integration with <strong>third-party APIs</strong></li>
+		  <li>Responsive design for <strong>mobile and desktop</strong></li>
+		</ul>
+		The project is built using the <strong>MERN stack</strong>.
+	  `,
+		tags: [
+			// tags that describes the app purpose
+			'Hisba Inventory',
+			'Hisba Inventory Management',
+			'Inventory Management',
+			'Inventory Tracking',
+			'Inventory',
+		],
+	},
+	{
 		name: 'Online Store',
 		links: ['https://dashboard-nextjs-weld.vercel.app/'],
 		repo: 'https://github.com/riyadh-dev/dashboard-nextjs',
-		thumbnail: imageSources.projects['Online Store'][0],
-		images: imageSources.projects['Online Store'],
+		thumbnail: imageSources.projects['Online Store'].images[0],
+		images: imageSources.projects['Online Store'].images,
+		logo: imageSources.projects['Online Store'].logo,
+		description: `
+		This project, <strong>Project Name</strong>, focuses on developing a modern web application.
+		<br>
+		<br>
+		Key Features:
+		<ul>
+		  <li><strong>User Authentication</strong> with multiple roles</li>
+		  <li><strong>Real-time data sync</strong> using WebSockets</li>
+		  <li>Integration with <strong>third-party APIs</strong></li>
+		  <li>Responsive design for <strong>mobile and desktop</strong></li>
+		</ul>
+		The project is built using the <strong>MERN stack</strong>.
+	  `,
 		tags: [
 			// tags that describes the app purpose
 			'Online Store',

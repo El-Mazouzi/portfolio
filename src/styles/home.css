@@ -9,14 +9,38 @@
 	margin-top: auto;
 	margin-bottom: auto;
 }
+.home .tagline-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* height: 100vh; */
+	/* background-color: #f7f7f7; */
+	padding: 0 20px;
+}
+
+.home .tagline-text {
+	font-size: 16px;
+	font-weight: 700;
+	text-align: center;
+	color: #333;
+	line-height: 1.5;
+}
+
+.home .highlight {
+	color: var(--color-primary); /* Highlight important keywords */
+	font-weight: 900;
+}
 
 .home .intro img {
 	border-radius: 50%;
-	height: 144px;
-	width: 144px;
+	height: 300px;
+	width: 300px;
 	margin-bottom: var(--m-1-5);
-	padding: 5px;
-	background-color: white;
+	padding: 4px;
+	background-color: var(--color-white);
+	object-fit: cover;
+
+	box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
 .home .intro .social-icons {

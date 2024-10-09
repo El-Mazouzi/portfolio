@@ -1,0 +1,22 @@
+---
+import SERVICES from '~/static/services';
+
+import '~/styles/services.css'
+---
+      <section class="services section" id="services">
+        <div class='container'>
+
+          <h2 class="section-title px-15">Services</h2>
+          <div class="services-list">
+            {SERVICES.map((item) => (
+              <div class="service-item">
+                <h3>{item}</h3>
+
+              </div>
+            ))}
+            </div>
+        </div>
+      </section>
+    );
+  
+  

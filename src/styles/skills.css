@@ -13,7 +13,11 @@
 	align-items: center;
 	cursor: pointer;
 	column-gap: var(--m-0-75);
-	color: var(--color-gray);
+	/* color: var(--color-gray); */
+	background-color: var(--color-light);
+	padding: var(--m-0-75) var(--m-1);
+	border-radius: 0.5rem;
+	transition: color 0.5s ease;
 }
 
 .skills-icon {
@@ -38,7 +42,8 @@
 }
 
 .skills-tabs-radio:checked + .skills-tab {
-	color: var(--color-primary);
+	color: var(--color-white);
+	background-color: var(--color-primary);
 	transition: color 0.5s ease;
 }
 
@@ -57,6 +62,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: center;
 	row-gap: var(--m-0-5);
 	text-align: center;
 }

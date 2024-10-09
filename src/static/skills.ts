@@ -90,10 +90,6 @@ const SKILLS = [
 				name: 'MongoDB',
 				image: mongodb,
 			},
-			{
-				name: 'Postgres',
-				image: postgresql,
-			},
 
 			{
 				name: 'ExpressJS',
