@@ -29,9 +29,9 @@ img {
 	height: auto;
 	vertical-align: middle;
 }
-
-ul {
-	list-style: none;
+.list-inside {
+	list-style-position: inside;
+	margin-left: 24px;
 }
 
 a {

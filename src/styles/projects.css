@@ -38,6 +38,7 @@
 	overflow: hidden;
 	text-align: center;
 	border-radius: 16px;
+	box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 .project-card img {
 	object-fit: cover;
@@ -121,7 +122,9 @@
 	column-gap: 0.75rem;
 	row-gap: 0.5rem;
 }
-
+.project-card-hover ul {
+	list-style: none;
+}
 @media (max-width: 1024px) {
 	.project-tags-container {
 		display: none;

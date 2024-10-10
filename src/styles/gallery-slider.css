@@ -33,10 +33,10 @@
 	display: flex;
 	flex-direction: column;
 	/* align-items: center; */
-	background: var(--color-white);
+	background-color: var(--color-light);
 	justify-self: center;
 	padding: 5rem 1rem;
-	width: 40%;
+	width: 50%;
 	height: 100%;
 }
 
@@ -55,6 +55,7 @@
 	height: 150px;
 	object-fit: cover;
 	border-radius: 24px;
+	background-color: var(--color-white);
 	box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 .gallery-project-title {
