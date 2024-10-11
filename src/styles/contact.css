@@ -25,15 +25,14 @@
 
 @media screen and (max-width: 600px) {
 	.contact-container {
-		justify-content: center;
+		justify-content: stretch;
 		row-gap: 2.5rem;
+
+		padding: 20px 0px;
 	}
 	.contact-box,
 	.contact-form {
-		width: 90%;
-	}
-	.contact-data {
-		justify-content: center;
+		width: 100%;
 	}
 }
 

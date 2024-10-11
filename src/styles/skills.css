@@ -49,7 +49,7 @@
 }
 
 .skills-tabs-radio:checked + .skills-tab svg {
-	fill: var(--color-primary);
+	/* fill: var(--color-dark); */
 	transition: color 0.5s ease;
 }
 

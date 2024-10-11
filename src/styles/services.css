@@ -39,12 +39,11 @@
 	cursor: pointer;
 }
 
+.service-item:hover h3 {
+	color: #fff;
+}
 .service-item h3 {
 	font-size: var(--normal-font-size);
 	color: var(--color-dark);
 	margin: 0;
-}
-
-.service-item:hover h3 {
-	color: #fff;
 }

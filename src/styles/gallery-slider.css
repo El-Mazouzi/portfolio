@@ -65,7 +65,20 @@
 .project-description {
 	margin: 0;
 }
+@media (width < 640px) {
+	.project-details {
+		/* width: 100%; */
+		display: none;
+	}
+	.project-logo-img {
+		width: 100px;
+		height: 100px;
+	}
 
+	.gallery-slider-middle-section img {
+		height: calc(100vh - 100px);
+	}
+}
 .close-button {
 	position: absolute;
 	left: 1rem;
@@ -123,7 +136,7 @@
 .gallery-slider-middle-section img {
 	height: calc(100vh - 100px);
 	z-index: -1;
-	border-radius: 16px;
+	border-radius: var(--card-border-radius);
 }
 
 .hide {

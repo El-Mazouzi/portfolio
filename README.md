@@ -1,3 +1,3 @@
-<p align="center">
+<div align="center">
 [Live preview](https://el-mazouzi.github.io/portfolio/)
-<p>
+<div>
