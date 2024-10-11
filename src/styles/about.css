@@ -40,6 +40,6 @@
 	text-align: center;
 }
 .stats-item svg {
-	height: var(--h2-font-size);
+	/* height: var(--h2-font-size); */
 	fill: var(--color-gray);
 }
