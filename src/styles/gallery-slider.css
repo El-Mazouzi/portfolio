@@ -35,7 +35,7 @@
 	/* align-items: center; */
 	background-color: var(--color-light);
 	justify-self: center;
-	padding: 5rem 1rem;
+	padding: 1rem;
 	width: 50%;
 	height: 100%;
 }
