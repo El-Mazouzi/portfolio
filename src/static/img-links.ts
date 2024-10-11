@@ -124,6 +124,7 @@ const imageSources = {
 				`${NEW_ROOT_URL}/Honest-Inn/itfg3ndaub2xods3ilmb.png`,
 				`${NEW_ROOT_URL}/Honest-Inn/r6f5c4jaystrydmfazec.png`,
 				`${NEW_ROOT_URL}/Honest-Inn/ckuipzmqkxharxgajye4.png`,
+				`${NEW_ROOT_URL}/Honest-Inn/rt4qtqsm270ernmaiu81.jpg`,
 				`${NEW_ROOT_URL}/Honest-Inn/vqo5rrgbqrjq1aoauvin.png`,
 				`${NEW_ROOT_URL}/Honest-Inn/j6qxx2k4o4icavok7npr.png`,
 				`${NEW_ROOT_URL}/Honest-Inn/jfzn7u0u5ravayvr0xkn.png`,

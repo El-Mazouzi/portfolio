@@ -17,7 +17,7 @@
 	/* color: var(--color-gray); */
 	background-color: var(--color-light);
 	padding: var(--m-0-75) var(--m-1);
-	border-radius: 0.5rem;
+	border-radius: var(--btn-border-radius);
 	transition: color 0.5s ease;
 }
 

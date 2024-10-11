@@ -6,11 +6,10 @@ const PROJECTS = [
 		name: 'Yassir',
 		links: ['https://e-commerce-app-self.vercel.app/'],
 		repo: 'https://github.com/riyadh-dev/e-commerce-app',
-		thumbnail: imageSources.projects['Yassir'].images[0],
+		thumbnail: imageSources.projects['Yassir'].images[7],
 		images: imageSources.projects['Yassir'].images,
 		logo: imageSources.projects['Yassir'].logo,
 		description: `
-		<p><strong>Tags</strong>: Yassir App, Super App, Food Delivery, Grocery Store, Online Store, Order Tracking.</p>
 		<br/>
 		<h4>Project Description</h4>
 		<p><strong>Yassir</strong> is a versatile super app that provides users with a variety of services, from food delivery and grocery shopping to online store purchases. Designed to simplify daily tasks, Yassir offers seamless ordering and delivery options across multiple categories. Users can browse restaurants, grocery stores, and online retailers, place orders, and track them in real-time through the app’s integrated order tracking system.</p>
@@ -40,11 +39,10 @@ const PROJECTS = [
 		name: 'Hisba-Go',
 		links: ['https://e-commerce-app-self.vercel.app/'],
 		repo: 'https://github.com/riyadh-dev/e-commerce-app',
-		thumbnail: imageSources.projects['Hisba-Go'].images[0],
+		thumbnail: imageSources.projects['Hisba-Go'].images[2],
 		logo: imageSources.projects['Hisba-Go'].logo,
 		images: imageSources.projects['Hisba-Go'].images,
 		description: `
-			<p><strong>Tags</strong>: Sales Automation, Direct Distribution, Order Management, Cash Collection System, Return Processing, Streamlined Operations, Sales Tracking System.</p>
 			<br/>
 			<h4>Project Description</h4>
 			<p><strong>Hisba Go</strong> is a mobile app designed to streamline sales processes for businesses using direct distribution. The app offers a range of tools for automating order management, cash collection, and return processing, allowing teams to boost operational efficiency.</p>
@@ -80,9 +78,8 @@ const PROJECTS = [
 		images: imageSources.projects['doctorek'].images,
 		logo: imageSources.projects['doctorek'].logo,
 		description: `
-		<p><strong>Tags</strong>: Mobile App, Online Doctor, Online Appointment, Doctor Consultation, Patient Portal.</p>
 		<br/>
-		<h4>Project Description</h4>
+			<h4>Project Description</h4>
 		<p><strong>Your Doctor</strong> is a mobile app designed to connect patients with healthcare providers for online consultations. It offers a seamless platform for scheduling appointments, conducting virtual consultations, and accessing a personalized patient portal. Whether users need a quick diagnosis or ongoing medical advice, Your Doctor provides convenient and secure healthcare services directly through the app.</p>
 		<br/>
 		<h4>Core Functionality</h4>
@@ -105,13 +102,12 @@ const PROJECTS = [
 		name: 'Honest-Inn',
 		links: ['https://dashboard-nextjs-weld.vercel.app/'],
 		repo: 'https://github.com/riyadh-dev/dashboard-nextjs',
-		thumbnail: imageSources.projects['Honest-Inn'].images[0],
+		thumbnail: imageSources.projects['Honest-Inn'].images[3],
 		logo: imageSources.projects['Honest-Inn'].logo,
 		images: imageSources.projects['Honest-Inn'].images,
 		description: `
-		<p><strong>Tags</strong>: Hotel Industry, Hotel Missions, Missions Finder, Job Opportunities, Job Finder.</p>
 		<br/>
-		<h4>Project Description</h4>
+			<h4>Project Description</h4>
 		<p><strong>Honest-Inn</strong> is a mobile app designed to connect users with job opportunities in the hotel industry. The platform enables users to complete specific hotel-related missions and tasks, earning rewards that can lead to job offers and long-term employment in the sector. With an intuitive interface, Honest-Inn makes it easy for users to find and apply for open positions in various hotels.</p>
 		<br/>
 		<h4>Core Functionality</h4>
@@ -138,13 +134,12 @@ const PROJECTS = [
 
 		links: ['https://dashboard-nextjs-weld.vercel.app/'],
 		repo: 'https://github.com/riyadh-dev/dashboard-nextjs',
-		thumbnail: imageSources.projects['Hisba-Makhzoun'].images[0],
+		thumbnail: imageSources.projects['Hisba-Makhzoun'].images[1],
 		logo: imageSources.projects['Hisba-Makhzoun'].logo,
 		images: imageSources.projects['Hisba-Makhzoun'].images,
 		description: `
-		<p><strong>Tags</strong>: Order Management, Order Preparation, Order Tracking, Online Synchronization, Inventory Management.</p>
 		<br/>
-		<h4>Project Description</h4>
+			<h4>Project Description</h4>
 		<p><strong>Hisba Makhzoun</strong> is a mobile app designed to streamline warehouse operations, including order management, preparation, and tracking. The app allows businesses to manage inventory, track orders in real-time, and synchronize data across multiple platforms. With features that support both order fulfillment and inventory control, Hisba Makhzoun enhances operational efficiency for businesses of all sizes.</p>
 		<br/>
 		<h4>Core Functionality</h4>
@@ -173,13 +168,12 @@ const PROJECTS = [
 		name: 'MBio-Manager',
 		links: ['https://dashboard-nextjs-weld.vercel.app/'],
 		repo: 'https://github.com/riyadh-dev/dashboard-nextjs',
-		thumbnail: imageSources.projects['Mbio-Manager'].images[0],
+		thumbnail: imageSources.projects['Mbio-Manager'].images[1],
 		images: imageSources.projects['Mbio-Manager'].images,
 		logo: imageSources.projects['Mbio-Manager'].logo,
 		description: `
-		<p><strong>Tags</strong>: Logistic Manager, Logistics Industry, Logistic Missions, Logistic Delivery, Delivery Tracking.</p>
 		<br/>
-		<h4>Project Description</h4>
+			<h4>Project Description</h4>
 		<p><strong>MBio-Manager</strong> is a mobile app tailored for the logistics industry, designed to streamline logistics management and enhance delivery operations. The app enables users to manage logistic missions, track deliveries in real-time, and optimize routes for improved efficiency. With a user-friendly interface, MBio-Manager empowers logistics professionals to coordinate their efforts effectively and ensure timely deliveries.</p>
 		<br/>
 		<h4>Core Functionality</h4>
@@ -207,13 +201,12 @@ const PROJECTS = [
 		name: 'Logistic Driver',
 		links: ['https://dashboard-nextjs-weld.vercel.app/'],
 		repo: 'https://github.com/riyadh-dev/dashboard-nextjs',
-		thumbnail: imageSources.projects['Logistix-Driver'].images[0],
+		thumbnail: imageSources.projects['Logistix-Driver'].images[1],
 		images: imageSources.projects['Logistix-Driver'].images,
 		logo: imageSources.projects['Logistix-Driver'].logo,
 		description: `
-		<p><strong>Tags</strong>: Logistic Driver, Logistics Delivery, Delivery Tracking, Delivery Management, Delivery.</p>
 		<br/>
-		<h4>Project Description</h4>
+			<h4>Project Description</h4>
 		<p><strong>Logistic Driver</strong> is a mobile app designed to assist drivers in the logistics industry with their delivery tasks. The app provides essential tools for managing deliveries, tracking packages in real-time, and optimizing routes to ensure timely arrivals. With its intuitive interface, Logistic Driver enhances communication between drivers and logistics managers, streamlining the delivery process from start to finish.</p>
 		<br/>
 		<h4>Core Functionality</h4>
@@ -240,13 +233,12 @@ const PROJECTS = [
 		name: 'Mbio-Logistic',
 		links: ['https://dashboard-nextjs-weld.vercel.app/'],
 		repo: 'https://github.com/riyadh-dev/dashboard-nextjs',
-		thumbnail: imageSources.projects['Mbio-Logistic'].images[0],
+		thumbnail: imageSources.projects['Mbio-Logistic'].images[2],
 		images: imageSources.projects['Mbio-Logistic'].images,
 		logo: imageSources.projects['Mbio-Logistic'].logo,
 		description: `
-		<p><strong>Tags</strong>: Mbio-Logistic, Mbio-Logistic Tracking, Mbio-Logistic Management, Laboratory Management, Patient Analysis.</p>
 		<br/>
-		<h4>Project Description</h4>
+			<h4>Project Description</h4>
 		<p><strong>Mbio-Logistic</strong> is a specialized mobile app designed for laboratory management and logistic tracking within the healthcare sector. This app streamlines the management of laboratory samples and patient analyses, ensuring accurate tracking and efficient handling of laboratory logistics. With features that facilitate real-time monitoring and management, Mbio-Logistic enhances operational efficiency in laboratory environments.</p>
 		<br/>
 		<h4>Core Functionality</h4>
@@ -275,13 +267,12 @@ const PROJECTS = [
 		name: 'Mantoudj-Bladi',
 		links: ['https://dashboard-nextjs-weld.vercel.app/'],
 		repo: 'https://github.com/riyadh-dev/dashboard-nextjs',
-		thumbnail: imageSources.projects['Mantoudj-Bladi'].images[0],
+		thumbnail: imageSources.projects['Mantoudj-Bladi'].images[1],
 		logo: imageSources.projects['Mantoudj-Bladi'].logo,
 		images: imageSources.projects['Mantoudj-Bladi'].images,
 		description: `
-		<p><strong>Tags</strong>: AgriTech, FarmToMarket, AgriculturePlatform, DirectTrade, FarmerEmpowerment, SustainableFarming, LocalAgriculture, SupplyChain, FarmersMarketplace, AgriBusiness, DigitalAgriculture.</p>
 		<br/>
-		<h4>Project Description</h4>
+			<h4>Project Description</h4>
 		<p><strong>Mantoudj-Bladi</strong> is an innovative digital platform designed to revolutionize the agriculture industry by empowering local farmers and facilitating direct trade between producers and markets. With a focus on sustainable farming practices and efficient supply chain management, Mantoudj-Bladi connects farmers with buyers, promotes local agriculture, and supports a fair marketplace for agricultural products. The platform aims to enhance the livelihood of farmers while promoting sustainable agriculture.</p>
 		<br/>
 		<h4>Core Functionality</h4>
@@ -314,13 +305,12 @@ const PROJECTS = [
 		name: 'Hisba Inventory',
 		links: ['https://dashboard-nextjs-weld.vercel.app/'],
 		repo: 'https://github.com/riyadh-dev/dashboard-nextjs',
-		thumbnail: imageSources.projects['Hisba-Inventory'].images[0],
+		thumbnail: imageSources.projects['Hisba-Inventory'].images[1],
 		logo: imageSources.projects['Hisba-Inventory'].logo,
 		images: imageSources.projects['Hisba-Inventory'].images,
 		description: `
-		<p><strong>Tags</strong>: Hisba Inventory, Hisba Inventory Management, Inventory Management, Inventory Tracking, Inventory.</p>
 		<br/>
-		<h4>Project Description</h4>
+			<h4>Project Description</h4>
 		<p><strong>Hisba Inventory</strong> is a comprehensive inventory management solution designed to streamline the process of tracking and managing inventory for businesses of all sizes. With features that enhance accuracy and efficiency, Hisba Inventory ensures that companies can monitor stock levels, track inventory movement, and make informed decisions in real-time. The platform is built to optimize the entire inventory management process, from procurement to sale, ensuring that businesses operate smoothly and without disruptions.</p>
 		<br/>
 		<h4>Core Functionality</h4>
@@ -351,9 +341,8 @@ const PROJECTS = [
 		images: imageSources.projects['Online Store'].images,
 		logo: imageSources.projects['Online Store'].logo,
 		description: `
-		<p><strong>Tags</strong>: Online Store, Online Order Tracking, Online Order Management.</p>
 		<br/>
-		<h4>Project Description</h4>
+			<h4>Project Description</h4>
 		<p><strong>Online Store</strong> is a robust e-commerce platform designed to provide a seamless shopping experience for customers and efficient order management for businesses. The platform enables businesses to manage their online store operations, track orders in real time, and ensure smooth communication with customers. With user-friendly tools for inventory, payments, and shipping, the *Online Store* app simplifies the process of running an online business and enhances customer satisfaction.</p>
 		<br/>
 		<h4>Core Functionality</h4>

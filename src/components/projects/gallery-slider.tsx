@@ -133,6 +133,11 @@ export default function GallerySlider(props: {
 							{props.project.name}
 						</h1>
 					</div>
+					<div class='project-inline-tags'>
+						{props.project.tags.map((tag: string) => (
+							<li class='project-tag'>#{tag}</li>
+						))}
+					</div>
 					<div
 						id='project-description'
 						innerHTML={props.project.description}

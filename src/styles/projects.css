@@ -122,8 +122,16 @@
 	column-gap: 0.75rem;
 	row-gap: 0.5rem;
 }
-.project-card-hover ul {
+.project-card-hover ul,
+.project-inline-tags {
 	list-style: none;
+}
+.project-inline-tags {
+	display: flex;
+	justify-content: start;
+	flex-wrap: wrap;
+	column-gap: 0.75rem;
+	row-gap: 0.5rem;
 }
 @media (max-width: 1024px) {
 	.project-tags-container {
