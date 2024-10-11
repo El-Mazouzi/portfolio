@@ -58,7 +58,7 @@
 	z-index: 1;
 }
 .project-card:hover::before {
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.7);
 }
 .project-card-hover {
 	position: absolute;
@@ -81,7 +81,7 @@
 
 .project-title {
 	z-index: 100;
-	color: #ddd;
+	color: #fff;
 	font-size: var(--h2-font-size);
 }
 

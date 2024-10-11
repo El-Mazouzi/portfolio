@@ -12,7 +12,7 @@ const imageSources = {
 	logo: `${NEW_ROOT_URL}/op2xiwryaoylg9flijmb.jpg`,
 	projects: {
 		Yassir: {
-			logo: `${NEW_ROOT_URL}/Yassir/blydv5ggrnpznwxm7srd.png`,
+			logo: `${NEW_ROOT_URL}/Yassir/pzvxn5dbt4s8pntkrjst.png`,
 			images: [
 				`${NEW_ROOT_URL}/Yassir/zfmm8kpenaloabceelag.png`,
 				`${NEW_ROOT_URL}/Yassir/qqo6c0bxnxvjgopufs1i.png`,
