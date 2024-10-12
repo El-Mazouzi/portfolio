@@ -1,7 +1,7 @@
 const EXPERIENCE = [
 	{
 		isWork: true,
-		period: '2023 - 2024',
+		period: '2023 - Now',
 		company: 'YASSIR (Y Combinator W20)',
 		jobTitle: 'Mobile developer',
 		description: [
