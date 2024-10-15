@@ -26,7 +26,7 @@ const EXPERIENCE = [
 	},
 	{
 		isWork: true,
-		period: '2021 - 2024',
+		period: '2021 - Now',
 		company: 'Freelancing',
 		jobTitle: 'Mobile Developer',
 		description: [
