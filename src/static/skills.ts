@@ -86,10 +86,10 @@ const SKILLS = [
 				image: node,
 			},
 
-			{
-				name: 'MongoDB',
-				image: mongodb,
-			},
+			// {
+			// 	name: 'MongoDB',
+			// 	image: mongodb,
+			// },
 
 			{
 				name: 'ExpressJS',
