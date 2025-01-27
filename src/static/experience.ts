@@ -31,7 +31,7 @@ const EXPERIENCE = [
 		description: [
 			'Designed Mantoudj Bladi, a platform connecting farmers to buyers, supporting 1500 active users monthly.',
 			'Created Honest-Inn, linking users to job opportunities in the hospitality sector, enhancing engagement.',
-			'Developed a specialized app for economics students, providing precise definitions and explanations of key terms to enhance subject understanding.',
+			'Built a specialized app for economics students, providing precise definitions and explanations of key terms to enhance subject understanding.',
 			'Developed a high-impact Flutter Package, achieving 90%+ popularity.',
 		],
 	},
